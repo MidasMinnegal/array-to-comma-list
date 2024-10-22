@@ -25,7 +25,11 @@ console.log(myDutchHeathenCommaList)
 // Output: "Een, twee en drie"
 ```
 ## Params
-| param        | description                                     | isRequired  | type    | defaultValue  |
-|:-------------|:------------------------------------------------|:------------|:--------|:--------------|
-| array        | The array that you want to convert              | true        | Array   | undefined     |
-| conjunction  | The word that is injected before the last item  | false       | String  | 'and'         |
+```
+myHeathenCommaList(array, conjunction)
+oxfordCommaList(array, conjunction)
+```
+| Param       | Description                                    | Is required | Type   | Default value |
+|:------------|:-----------------------------------------------|:------------|:-------|:--------------|
+| array       | The array that you want to convert             | true        | Array  | undefined     |
+| conjunction | The word that is injected before the last item | false       | String | 'and'         |
